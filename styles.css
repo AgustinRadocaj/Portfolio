@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;1,400&display=swap');
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 30px;
+    margin: 35px;
+    color: #eb4034;
+}
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    border-radius: 14px;
+    margin: 15px;
+    padding: 15px;
+    align-items: center;
+    box-shadow: 0px 0px 8px 5px #0a0a0a80;
+    transition: 0.5s;
+    width: 85%;
+}
+.card:hover {
+    box-shadow: 0px 0px 8px 5px #eb403490;
+    transform: scale(1.05, 1.05);
+}
+.card-project {
+    display: flex;
+    flex-direction: column;
+    border-radius: 14px;
+    margin: 15px;
+    padding: 15px;
+    align-items: center;
+    box-shadow: 0px 0px 8px 5px #0a0a0a80;
+    transition: 0.5s;
+    width: 85%;
+}
+.card-project:hover {
+    box-shadow: 0px 0px 8px 5px #eb403490;
+    transform: scale(1.05, 1.05);
+}
+
+.image-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 20px;
+}
+.foto {
+    width:240px;
+    height:240px;
+    border-radius: 50%;
+    margin-right: 25px;
+}
+.project-image {
+    width: 500px;
+    heigth: 330px;
+    margin: 6px;
+    border-radius: 15px;
+}
+
+.list {
+    width: 1080px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    line-height: 1.5;
+}
+
+.tecnologias {
+   align-self: left;
+}
