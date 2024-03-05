@@ -3,6 +3,18 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.nav-button {
+    font-size: 18px;
+}
+.nav-button:hover {
+    cursor: pointer;
+}
 .titulo {
     text-align: center;
     font-size: 30px;

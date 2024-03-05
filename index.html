@@ -9,17 +9,18 @@
 </head>
 <body>
     <main>
-        <div>
-            <button onclick="redireccion('about')">About Me</button>
-            <button onclick="redireccion('stack')">Stack</button>
-            <button onclick="redireccion('proyectos')">Proyectos</button>
-            <button onclick="redireccion('contacto')">Contacto</button>
-            <select name="idioma" id="idioma">
+        <nav class="nav">
+            <div onclick="redireccion('about')" class="nav-button">About Me</div>
+            <div onclick="redireccion('stack')" class="nav-button">Stack</div>
+            <div onclick="redireccion('proyectos')" class="nav-button">Proyectos</div>
+            <div onclick="redireccion('contacto')" class="nav-button">Contacto</div>
+          <!--  <select name="idioma" id="idioma">
                 <option value="idioma-language">idioma/language</option>
                 <option value="español">español</option>
                 <option value="english">english</option>
             </select>
-        </div>
+              -->
+        </nav>
         <h1 class="titulo">Agustin Radocaj FullStack Developer</h1>
         <section class="section" id="about">
             <div class="card">
