@@ -9,14 +9,27 @@
 </head>
 <body>
     <main>
+        <div>
+            <button onclick="redireccion('about')">About Me</button>
+            <button onclick="redireccion('stack')">Stack</button>
+            <button onclick="redireccion('proyectos')">Proyectos</button>
+            <button onclick="redireccion('contacto')">Contacto</button>
+            <select name="idioma" id="idioma">
+                <option value="idioma-language">idioma/language</option>
+                <option value="español">español</option>
+                <option value="english">english</option>
+            </select>
+        </div>
         <h1 class="titulo">Agustin Radocaj FullStack Developer</h1>
-        <section class="section">
+        <section class="section" id="about">
             <div class="card">
             <img class="foto" src="./Imagenes/Foto.jpg" alt="Agustin Radocaj">
             <p class="intro">Hola soy Agustin Radocaj, soy un desarrollador FullStack graduado de Henry y vivo en Mar del Plata, Argentina. 
-                Me interesa el desarrollo de aplicaciones y videojuegos.
+                Me interesa el desarrollo de aplicaciones y videojuegos. Responsive
             </p>
             </div>
+        </section>
+        <section class="section" id="stack">            
             <h2>Stack</h2>
             <div class="card">
             <h3>Lenguages: </h3>
@@ -29,7 +42,7 @@
             <p>Ingles - C2 </p>
             </div>
         </section>
-        <section class="section">
+        <section class="section" id="proyectos">
             <h2>Proyectos</h2>
             <div class="card-project">
                 <h3 class="nombre-proyecto">PI Videogames</h3>
@@ -86,6 +99,14 @@
                 <a href="https://github.com/lautaromateol/stayfy-front" target="_blank" ><div>Repo GitHub - FrontEnd</div><a/>
             </div>
         </section>
+        <footer id="contacto">
+            <h1>Contacto</h1>
+            <div>Whatssapp</div>
+            <div>Email</div>
+            <div>Linkedin</div>
+            <div>GitHub</div>
+        </footer>
     </main>
+    <script src="./index.js"></script>
 </body>
 </html>
