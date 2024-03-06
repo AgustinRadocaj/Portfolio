@@ -23,30 +23,27 @@
         </nav>
         <h1 class="titulo">Agustin Radocaj FullStack Developer</h1>
         <section class="section" id="about">
-            <div class="card">
+            <div class="card-info">
             <img class="foto" src="./Imagenes/Foto.jpg" alt="Agustin Radocaj">
             <p class="intro">Hola soy Agustin Radocaj, soy un desarrollador FullStack graduado de Henry y vivo en Mar del Plata, Argentina. 
-                Me interesa el desarrollo de aplicaciones y videojuegos. Responsive
+                Me interesa el desarrollo de aplicaciones y videojuegos. Actualmente sigo aprendiendo nuevas tecnologias y estoy buscando mi
+                primera experiencia laboral en el sector IT.
             </p>
             </div>
         </section>
         <section class="section" id="stack">            
             <h2>Stack</h2>
-            <div class="card">
-            <h3>Lenguages: </h3>
-            <p>JavaScript - Python</p>
-            <h3>Frameworks: </h3>
-            <p>React - NextJs - Express.js - Firebase<br></p>
-            <h3>Base de Datos:</h3>
-            <p>SQL</p>
-            <h3>Idiomas: </h3>
-            <p>Ingles - C2 </p>
+            <div class="card-stack">
+            <p><b>Lenguages:</b> JavaScript - Python</p>           
+            <p><b>Frameworks:</b> React - NextJs - Express.js - Firebase</p>           
+            <p><b>Base de Datos:</b> PostgreSQL</p>           
+            <p><b>Idiomas:</b> Ingles - C2 </p>
             </div>
         </section>
         <section class="section" id="proyectos">
             <h2>Proyectos</h2>
             <div class="card-project">
-                <h3 class="nombre-proyecto">PI Videogames</h3>
+                <h3 class="nombre-proyecto">Visualizador de videojuegos</h3>
                 <p class="descripcion">Proyecto Fullstack con pedidos a una API externa. La finalidad del proyecto era la muestra de un catalogo de videojuegos.
                     Con la posibilidad de buscar por nombre y aplicar filtros a la busqueda, tambien se pueden ingresar videojuegos de manera manual
                     y agregarlos a una base de datos para que puedan ser mostrados junto con todo el catalogo disponible.
@@ -69,7 +66,7 @@
                 </div>
                 <div class="tecnologias"><b>Tecnologias: </b> ReactJS - Express.js - SQL</div>
                 <br/>
-                <a href="https://github.com/AgustinRadocaj/Proyecto-Individual-VideoGames" target="_blank"><div>Repo GitHub</div></a>
+                <a href="https://github.com/AgustinRadocaj/Proyecto-Individual-VideoGames" target="_blank"><div class="link-repo">Repo GitHub</div></a>
             </div> 
             <div class="card-project">
                 <h3 class="nombre-proyecto">StayFi</h3>
@@ -80,10 +77,12 @@
                 <div class="features">
                 <h4>Features</h4>
                 <ul class="list">
-                    <li>Login, registro y restaracion de contraseña</li>
+                    <li>Login, registro y restauracion de contraseña</li>
                     <li>Pasarela de pagos (Mercado Pago)</li>
                     <li>Dashboard de administrador</li>
                     <li>Almacenamiento en la nube (Cloudinary)</li>
+                    <li>Notificaciones por email(Nodemailer)</li>
+                    <li>Conexion con base de datos</li>
                 </ul>               
                 </div>
                 <div class="image-container">
@@ -96,16 +95,17 @@
                 </div>
                 <div><b>Tecnologias: </b>ReactJS - Tailwind - Express.js - SQL</div>
                 <br/>
-                <a href="https://github.com/AgustinRadocaj/StyfyBack" target="_blank" ><div>Repo GitHub - BackEnd</div><a/>
-                <a href="https://github.com/lautaromateol/stayfy-front" target="_blank" ><div>Repo GitHub - FrontEnd</div><a/>
+                <a href="https://stayfy-xi.vercel.app/" target="_blank" class="link-repo">Visitar proyecto</a>
+                <a href="https://github.com/AgustinRadocaj/StyfyBack" target="_blank" ><div class="link-repo">Repo GitHub - BackEnd</div><a/>
+                <a href="https://github.com/lautaromateol/stayfy-front" target="_blank"><div class="link-repo">Repo GitHub - FrontEnd</div><a/>
             </div>
         </section>
         <footer id="contacto">
-            <h1>Contacto</h1>
-            <div>Whatssapp</div>
-            <div>Email</div>
-            <div>Linkedin</div>
-            <div>GitHub</div>
+            <h2>Contacto</h2>
+            <a href="https://wa.me/+542995304467/" target="_blank"><div class="contacto-text">Whatssapp</div></a>
+            <a href="mailto:jaguscaj@gmail.com" target="_blank"><div class="contacto-text">Email</div></a>
+            <a href="https://github.com/AgustinRadocaj" target="_blank"><div class="contacto-text">GitHub</div></a>
+            <a href="https://www.linkedin.com/in/agustin-radocaj/" target="_blank"><div class="contacto-text">Linkedin</div></a>
         </footer>
     </main>
     <script src="./index.js"></script>
