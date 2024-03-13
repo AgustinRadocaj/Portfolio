@@ -1,35 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;1,400&display=swap');
+/*white #F6F7EB
+red #E94F37
+black #393E41*/
 body {
     font-family: 'Ubuntu', sans-serif;
     margin: 0;
+    background-color: #393E41;
 }
 section {
     margin: 60px  0;
 }
 
 h2 {
-    color: #eb4034;
+    color: #E94F37;
 }
 a{
     text-decoration: none;
 }
 
 footer {
-    background-color: #4034EB;
+    background-color: #F6F7EB;
     padding: 10px;
     text-align: center;
 }
+.contacto-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
 footer h2 {
-    color: white;
+    color: #E94F37;
 }
 
 .nav{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color: #4034EB;
+    background-color: #F6F7EB;
     height: 40px;
-    color: white;
+    font-weight: 500;
+    color: #E94F37;
 }
 .nav-button {
     font-size: 18px;
@@ -57,11 +66,17 @@ footer h2 {
     box-shadow: 0px 0px 8px 5px #0a0a0a80;
     transition: 0.5s;
     width: 85%;
+    background-color: #F6F7EB;
 }
 
 .card-info:hover {
     box-shadow: 0px 0px 8px 5px #eb403490;
     transform: scale(1.05, 1.05);
+}
+.cv {
+    text-decoration: none;
+    font-weight: 500;
+    color: #3C5179;
 }
 .intro {
     line-height: 1.8;
@@ -76,6 +91,7 @@ footer h2 {
     box-shadow: 0px 0px 8px 5px #0a0a0a80;
     transition: 0.5s;
     width: 85%;
+    background-color: #F6F7EB;
 }
 .card-stack:hover {
     box-shadow: 0px 0px 8px 5px #eb403490;
@@ -96,6 +112,7 @@ footer h2 {
     box-shadow: 0px 0px 8px 5px #0a0a0a80;
     transition: 0.5s;
     width: 85%;
+    background-color: #F6F7EB;
 }
 .card-project:hover {
     box-shadow: 0px 0px 8px 5px #eb403490;
@@ -134,11 +151,17 @@ footer h2 {
 .link-repo{
     font-weight: 500;
     font-size: 20px;
-    color: #4034EB;
+    color: #3C5179;
 }
 .contacto-text {
-    color: white;
+    color: #E94F37;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 20px;
     margin: 10px;
+}
+.contacto-container {
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    height: 100px;
 }
