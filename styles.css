@@ -102,6 +102,11 @@ footer h2 {
     font-size: 20px;
 }
 
+.descripcion {
+    width: 87%;
+    margin-bottom: 60px;
+}
+
 .card-project {
     display: flex;
     flex-direction: column;
@@ -152,6 +157,10 @@ footer h2 {
     font-weight: 500;
     font-size: 20px;
     color: #3C5179;
+}
+
+.tecnologias {
+    margin-bottom: 40px;
 }
 .contacto-text {
     color: #E94F37;
