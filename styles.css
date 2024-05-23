@@ -148,7 +148,7 @@ footer h2 {
 }
 
 .list {
-    width: 1080px;
+    width: 90%;
     display: grid;
     grid-template-columns: 50% 50%;
     line-height: 1.5;
@@ -173,4 +173,26 @@ footer h2 {
     align-items: center;
     display: flex;
     height: 100px;
+}
+
+.features {
+    width: 90%;
+}
+
+.flags{ 
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flags_item {
+    width: 30px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1200px) {
+    .image-container {
+        display: flex;
+        flex-direction: column;
+    }
 }
